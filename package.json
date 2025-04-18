@@ -1,8 +1,8 @@
 {
-  "name": "react-first-app",
+  "name": "blog-preview-card",
   "version": "1.0.0",
   "description": "first react app",
-  "homepage": "https://manisha-batesar.github.io/recipe-app-fm/",
+  "homepage": "https://github.com/Manisha-batesar/react-challenge",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve",
