@@ -2,7 +2,7 @@
 
 A modern React-based blog article card component that elegantly displays article previews with author information.
 
-![Blog Article Card Preview](https://manisha-batesar.github.io/recipe-app-fm/preview.png)
+![Blog Article Card Preview](./preview.png)
 
 ## 🌟 Features
 
