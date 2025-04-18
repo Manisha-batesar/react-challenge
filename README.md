@@ -1,29 +1,59 @@
-# Recipe App
+# Blog Article Card Component
 
-A React-based recipe application that showcases various recipes with a modern UI. Built with React, Webpack, and Embla Carousel.
+A modern React-based blog article card component that elegantly displays article previews with author information.
 
-## Features
+![Blog Article Card Preview](https://manisha-batesar.github.io/recipe-app-fm/preview.png)
 
-- Modern responsive design
-- Recipe carousel with auto-play functionality 
-- Hero icons integration
-- Framer Motion animations
-- Mobile-friendly layout
+## 🌟 Features
 
-## Technologies Used
+- Clean and responsive card layout
+- Article preview image
+- Category label ("Learning")
+- Publication date display
+- Article title and description 
+- Author information with avatar
+- Modern minimalist design
+- Hover effects for better user interaction
 
-- React
-- Webpack
-- Embla Carousel
-- Hero Icons
-- Framer Motion
+## 🛠 Tech Stack
+
+- React 19
 - CSS Modules
+- SVG Images
+- Webpack
+- ESLint & Prettier for code quality
 
-## Setup and Installation
+## 🧱 Component Structure
+
+```jsx
+<div className="card">
+  <div className="articalImg">
+    // Article preview image
+  </div>
+  
+  <div className="cardContent">
+    // Category label
+  </div>
+  
+  <div className="cardPublished">
+    // Publication date
+  </div>
+  
+  <div className="cardHeading">
+    // Article title and description
+  </div>
+  
+  <div className="cardAuthor">
+    // Author avatar and name
+  </div>
+</div>
+```
+
+## 🚀 Getting Started
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone [your-repo-url]
 ```
 
 2. Install dependencies:
@@ -41,29 +71,23 @@ npm run dev
 npm run build
 ```
 
-## Development
+## 📦 Available Scripts
 
-- `npm run dev` - Starts development server
-- `npm run build` - Creates production build
-- `npm run lint` - Runs ESLint
-- `npm run lint:fix` - Fixes ESLint issues
-- `npm run deploy` - Deploys to GitHub Pages
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run lint:fix` - Fix linting issues
+- `npm run deploy` - Deploy to GitHub Pages
 
-## Project Structure
+## 👤 Author
 
-```
-src/
-  ├── components/     # React components
-  ├── styles/        # CSS styles
-  ├── assets/        # Images and other assets
-  ├── App.js         # Main App component
-  └── index.js       # Entry point
-```
+Manisha Batesar
 
-## License
+## 📄 License
 
 ISC License
 
-## Author
+## 🔗 Links
 
-Manisha Batesar
+- GitHub Repository: [https://github.com/manisha-batesar/recipe-app-fm](https://github.com/manisha-batesar/recipe-app-fm)
+- Live Demo: [https://manisha-batesar.github.io/recipe-app-fm/](https://manisha-batesar.github.io/recipe-app-fm/)
